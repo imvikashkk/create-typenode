@@ -1,0 +1,19 @@
+# .prettierignore
+# Build and dependencies
+node_modules
+dist
+build
+coverage
+tmp
+
+# Config files (optional)
+*.config.js
+*.config.cjs
+*.config.ts
+
+# Logs
+*.log
+
+# Git related
+.git
+.gitignore

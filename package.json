@@ -1,0 +1,43 @@
+{
+  "name": "create-typenode",
+  "version": "1.0.0",
+  "description": "The fastest way to scaffold a modern TypeScript + Node.js project with ESBuild, ESLint, Prettier, and more!",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-typenode": "./index.js"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "scaffold",
+    "cli",
+    "template",
+    "generator",
+    "esbuild",
+    "eslint",
+    "prettier",
+    "tsx",
+    "create",
+    "boilerplate",
+    "starter"
+  ],
+  "author": "Vikash KK <hello@vikashkk.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/imvikashkk/create-typenode#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imvikashkk/create-typenode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imvikashkk/create-typenode/issues"
+  },
+  "engines": {
+    "node": ">=22.19.0",
+    "npm": ">=10.9.3"
+  },
+  "files": [
+    "index.js",
+    "template/"
+  ]
+}

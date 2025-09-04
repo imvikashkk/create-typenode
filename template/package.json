@@ -1,0 +1,40 @@
+{
+  "name": "createtypenode",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dir/app.bundle.js",
+  "scripts": {
+    "clear": "rimraf dist .tsbuildinfo && echo 'cleaned'",
+    "dev": "tsx --watch --env-file=.env src/app.ts",
+    "start": "node --env-file=.env dist/app.bundle.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "check": "npm run lint && npm run typecheck && npm run format",
+    "fix": "npm run lint:fix && npm run format:fix",
+    "ci": "npm run clear && npm ci && npm run check && npm run build",
+    "prebuild": "npm run clear && npm run lint && npm run typecheck",
+    "build": "tsx esbuild.config.ts",
+    "prepare": "husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "esbuild": "^0.25.9",
+    "esbuild-node-externals": "^1.18.0",
+    "esbuild-plugin-copy": "^2.1.1",
+    "eslint": "^9.34.0",
+    "husky": "^9.1.7",
+    "jiti": "^2.5.1",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
