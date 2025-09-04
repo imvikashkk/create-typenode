@@ -1,14 +1,10 @@
-# .prettierignore
+
 # Build and dependencies
 node_modules
 dist
-build
-coverage
-tmp
 
-# Config files (optional)
-*.config.js
-*.config.cjs
+
+# Config files
 *.config.ts
 
 # Logs
