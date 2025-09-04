@@ -25,8 +25,7 @@ Create TypeNode is a powerful CLI tool that instantly sets up a production-ready
 ### Create a new project
 
 ```bash
-npm create typenode my-awesome-project
-cd my-awesome-project
+npm create typenode@latest
 npm run dev
 ```
 

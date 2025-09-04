@@ -14,7 +14,7 @@
 [![GitHub license](https://img.shields.io/github/license/imvikashkk/create-typenode.svg)](https://github.com/imvikashkk/create-typenode/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/imvikashkk/create-typenode.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/imvikashkk/create-typenode/stargazers/)
 
-> **Version:** 1.0.0  
+> **Version:** 1.1.2  
 > **The fastest way to scaffold a modern TypeScript + Node.js project**
 
 ## 🚀 Quick Start
@@ -30,9 +30,9 @@ npm run dev
 | Property | Value |
 |----------|-------|
 | **Package Name** | `create-typenode` |
-| **Version** | `1.0.0` |
+| **Version** | `1.1.2` |
 | **License** | ISC |
-| **Author** | Vikash Kumar |
+| **Author** | Vikash Kumar Khunte |
 | **Keywords** | typescript, nodejs, scaffold, cli, esbuild |
 
 ## ✨ What's Included
@@ -164,4 +164,4 @@ Issues and pull requests are welcome!
 
 ---
 
-**Built with ❤️ by Vikash Kumar**
+**Built with ❤️ by Vikash KK**
