@@ -1,18 +1,37 @@
 {
   "compilerOptions": {
-    "module": "es2022",
+    // "tsBuildInfoFile": "",
     "target": "ES2024",
-    "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2023"],
+    "module": "ESNext",
     "skipLibCheck": true,
+
+    /* Bundler */
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+    // "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
     "noEmit": true,
 
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+
+    /* Others */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+
+    /* @ Alias Setup */
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "typeRoots": ["./node_modules/@types", "./src/types"]
   },
   "include": ["src"],
   "exclude": ["node_modules"]

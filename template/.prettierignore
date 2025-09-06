@@ -4,12 +4,6 @@ node_modules
 dist
 
 
-# Config files
-*.config.ts
-
-# Logs
-*.log
-
 # Git related
 .git
 .gitignore

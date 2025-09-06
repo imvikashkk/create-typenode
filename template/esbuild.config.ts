@@ -7,14 +7,15 @@ build({
   bundle: true,
   platform: 'node',
   target: 'node22.14',
+  format: 'esm',
   outfile: 'dist/app.bundle.js',
   plugins: [
     nodeExternalsPlugin(),
     copy({
       assets: [
-        { from: ['./views/**/*'], to: ['./dist/views'] },
-        { from: ['./templates/**/*'], to: ['./dist/templates'] },
-        { from: ['./assets/**/*'], to: ['./dist/assets'] },
+        { from: ['src/views/**/*'], to: ['views'] },
+        { from: ['src/templates/**/*'], to: ['templates'] },
+        { from: ['src/assets/**/*'], to: ['assets'] },
       ],
     }),
   ],
