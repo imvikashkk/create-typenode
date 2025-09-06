@@ -1,6 +1,6 @@
 {
   "name": "create-typenode",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "The fastest way to scaffold a modern TypeScript + Node.js project with ESBuild, ESLint, Prettier, and more!",
   "main": "index.js",
   "type": "module",

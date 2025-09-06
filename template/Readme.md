@@ -1,19 +1,9 @@
-# 🚀 Create TypeNode
+# 🚀 New Project
 
 **The fastest way to scaffold a modern TypeScript + Node.js project**
 
 Create TypeNode is a powerful CLI tool that instantly sets up a production-ready TypeScript Node.js project with all the modern development tools you need.
 
-## ✨ Features
-
-- **🔥 TypeScript** - Full TypeScript support with strict configuration
-- **⚡ Fast Development** - Hot reload with `tsx` for instant feedback
-- **🔧 ESBuild** - Lightning-fast build process
-- **📏 Code Quality** - ESLint + Prettier for consistent code style
-- **🔍 Type Checking** - Strict TypeScript type checking
-- **🪝 Git Hooks** - Pre-commit hooks with Husky
-- **🧹 Clean Scripts** - Comprehensive npm scripts for all tasks
-- **📦 Modern Setup** - ES modules, environment files, and more
 
 ## 📋 Requirements
 
@@ -48,25 +38,6 @@ Setup for your IDE setting.json just paste it. for fast and better development �
 }
 ```
 
-
-## 📁 Project Structure
-
-```
-my-project/
-├── .husky/                # Husky for git 
-├── dist/                  # Built files (generated)
-├── public/                # Public folder => Make it public it in code
-├── src/                   # Your Complete Conatainer Source folder
-│   └── app.ts             # Main application file
-├── .env                   # Environment variables
-├── .gitignore             # Git ignore rules
-├── .prettierignore        # Prettier ignore rules
-├── esbuild.config.ts      # ESBuild configuration
-├── eslint.config.ts       # ESLint configuration
-├── package.json           # Project dependencies and scripts
-├── prettier.config.ts     # Prettier configuration
-└── tsconfig.json          # TypeScript configuration
-```
 
 ## 🔧 Available Scripts
 
@@ -217,25 +188,3 @@ npm install
 ## 📄 License
 
 ISC License - feel free to use this project for any purpose.
-
-## 🔗 Links
-
-- **GitHub**: [https://github.com/imvikashkk/create-typenode](https://github.com/imvikashkk/create-typenode)
-- **npm Package**: `create-typenode`
-- **Issues**: [Report bugs and request features](https://github.com/imvikashkk/create-typenode/issues)
-
-## 💡 Why Create TypeNode?
-
-Modern Node.js development requires a lot of setup - TypeScript configuration, build tools, linting, formatting, and more. Create TypeNode eliminates this friction by providing:
-
-- **⚡ Zero Configuration** - Works out of the box
-- **🏗️ Modern Tooling** - Latest versions of all tools
-- **📈 Best Practices** - Industry-standard project structure
-- **🔧 Flexibility** - Easy to customize and extend
-- **🚀 Performance** - Fast development and build times
-
----
-
-**Happy coding with Create TypeNode! 🎉**
-
-*Built with ❤️ for the TypeScript community*
