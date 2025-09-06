@@ -9,12 +9,12 @@
     ╚═╝      ╚═╝   ╚═╝     ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝
 ```
 
-[![npm version](https://badge.fury.io/js/create-typenode.svg)](https://badge.fury.io/js/create-typenode)
+[![npm version](https://badge.fury.io/js/create-typenode.svg)](https://github.com/imvikashkk/create-typenode/blob/main/Readme.md)
 [![npm](https://img.shields.io/npm/dt/create-typenode.svg)](https://www.npmjs.com/package/create-typenode)
 [![GitHub license](https://img.shields.io/github/license/imvikashkk/create-typenode.svg)](https://github.com/imvikashkk/create-typenode/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/imvikashkk/create-typenode.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/imvikashkk/create-typenode/stargazers/)
 
-> **Version:** 1.1.3  
+> **Version:** 1.1.4  
 > **The fastest way to scaffold a modern TypeScript + Node.js project**
 
 ## 🚀 Quick Start
@@ -30,8 +30,8 @@ npm run dev
 | Property         | Value                                      |
 | ---------------- | ------------------------------------------ |
 | **Package Name** | `create-typenode`                          |
-| **Version**      | `1.1.3`                                    |
-| **License**      | ISC                                        |
+| **Version**      | `1.1.4`                                    |
+| **License**      | MIT                                        |
 | **Author**       | Vikash Kumar Khunte                        |
 | **Keywords**     | typescript, nodejs, scaffold, cli, esbuild |
 
@@ -158,7 +158,7 @@ Use `.env` file for environment-specific configuration
 
 ## 📄 License
 
-ISC License
+MIT License
 
 ## 🔗 Links
 

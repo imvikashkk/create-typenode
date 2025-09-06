@@ -1,6 +1,6 @@
 {
   "name": "create-typenode",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "The fastest way to scaffold a modern TypeScript + Node.js project with ESBuild, ESLint, Prettier, and more!",
   "main": "index.js",
   "type": "module",
@@ -23,7 +23,7 @@
     "starter"
   ],
   "author": "Vikash KK <hello@vikashkk.com>",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/imvikashkk/create-typenode#readme",
   "repository": {
     "type": "git",
